@@ -22,9 +22,6 @@ struct FormView: View {
             }
             //Vid 466
             TipView(TipTres())
-                
-
-            
         }.padding()
             .onAppear{
                 Task {
@@ -33,4 +30,8 @@ struct FormView: View {
                 }
             }
     }
+}
+
+#Preview {
+    FormView()
 }
